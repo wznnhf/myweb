@@ -1,0 +1,29 @@
+# Local environments and caches
+.DS_Store
+.playwright-cli/
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Credentials and machine-specific state
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+.dev.vars*
+.openai/
+
+# Personal study records and backups
+*.sqlite3
+*.sqlite3-*
+/app/data/backups/
+/app/data/note-images/
+/sites/shiti-cloud/cloud/initial-study.json
+
+# Generated reports, bundles, and temporary files
+/app/output/
+/app/tmp/
+/output/

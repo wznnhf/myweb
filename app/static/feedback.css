@@ -1,0 +1,17 @@
+/* Muted semantic states; the warm accent is reserved for primary actions. */
+button,a,input,select,textarea{touch-action:manipulation}
+.button,.number,.tabs button,.status-pills button{box-shadow:none}
+.button:active,.number:active{filter:brightness(.97)}
+.status-pills button[data-value=review]{color:#9b5d50;background:#faf0e9;border-color:#ecd5c8}
+.status-pills button[data-value=mastered]{color:#527256;background:#f0f4ea;border-color:#d5dfcb}
+.status-pills button[data-value=unmarked].active{background:#eee9df;border-color:#c5bcab;color:#6e6658}
+.status-pills button[data-value=review].active{background:#b87765;color:white;border-color:#b87765}
+.status-pills button[data-value=mastered].active{background:#607d5d;color:white;border-color:#607d5d}
+.status-pills button.active:before{content:'✓ ';font-weight:600}
+.review-badge.review{background:#f6e9df;color:#a26752}.review-badge.mastered{background:#edf2e5;color:#607c55}
+.number.review{background:#f8eee7;color:#a36753;border-color:#e7cbbb}.number.mastered{background:#eef3e7;color:#607c55;border-color:#d0dcc2}
+.number.active,.number.review.active,.number.mastered.active{outline:1px solid var(--accent);outline-offset:2px}
+.legend .review-legend{color:#a36753}.legend .mastered-legend{color:#607c55}
+.folder-check:has(input:checked){background:#eee8dc;border-color:#dccbb9;color:#785e47}.folder-check:hover{background:#f0ebdf}.folder-check:has(input:disabled){opacity:.5}
+.folder-check input{accent-color:var(--accent)}.save-row{color:#6a805d}.save-row.error{color:var(--red)}
+.button.danger:hover,[data-action=delete-folder]:hover{color:var(--red);background:#f8ece5;border-color:#dfc2b4}

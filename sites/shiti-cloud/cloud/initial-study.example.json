@@ -1,0 +1,23 @@
+{
+  "format": "cuoti-backup",
+  "version": 8,
+  "activity": [],
+  "daily_practice": [],
+  "knowledge": {
+    "catalog_version": 2,
+    "source_sha256": "8ddd98ba0d38e1bce3b1d82f7cd5ec29652e51f7d015546b7412a74f17073770",
+    "config": {},
+    "sessions": [],
+    "states": [],
+    "draws": [],
+    "reviews": [],
+    "goals": []
+  },
+  "images": [],
+  "last_reads": {},
+  "daily_reviews": [],
+  "states": [],
+  "folders": [],
+  "memberships": [],
+  "last_read": null
+}

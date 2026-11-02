@@ -1,0 +1,2 @@
+# The official FSRS-6 scheduler; install into app/.venv.
+fsrs==6.3.2

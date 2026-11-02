@@ -1,0 +1,435 @@
+{
+  "papers": 90,
+  "questions": 1980,
+  "cross_column": [
+    {
+      "paper": "2024 余炳森五套卷第1套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2024 余炳森五套卷第2套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2024 余炳森五套卷第2套",
+      "number": 18,
+      "parts": 2
+    },
+    {
+      "paper": "2024 余炳森五套卷第4套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇八套卷第1套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇八套卷第1套",
+      "number": 17,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇八套卷第2套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇八套卷第3套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇八套卷第8套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2025 余炳森五套卷第2套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2025 余炳森五套卷第3套",
+      "number": 17,
+      "parts": 2
+    },
+    {
+      "paper": "2025 余炳森五套卷第4套",
+      "number": 9,
+      "parts": 2
+    },
+    {
+      "paper": "2025 张宇四套卷第1套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2025 李林六套卷第2套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2025 李林六套卷第3套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2025 李林六套卷第4套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2025 李林六套卷第5套",
+      "number": 5,
+      "parts": 2
+    },
+    {
+      "paper": "2025 李林六套卷第6套",
+      "number": 18,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇四套卷第1套",
+      "number": 22,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇四套卷第2套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇四套卷第3套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇四套卷第4套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2024 超越十套卷第2套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2024 超越十套卷第5套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2024 超越十套卷第5套",
+      "number": 18,
+      "parts": 2
+    },
+    {
+      "paper": "2024 超越十套卷第8套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2024 超越十套卷第9套",
+      "number": 9,
+      "parts": 2
+    },
+    {
+      "paper": "2025 超越十套卷第6套",
+      "number": 5,
+      "parts": 2
+    },
+    {
+      "paper": "2025 超越十套卷第7套",
+      "number": 8,
+      "parts": 2
+    },
+    {
+      "paper": "2025 超越十套卷第8套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2023 张宇八套卷第3套",
+      "number": 21,
+      "parts": 2
+    },
+    {
+      "paper": "2023 张宇八套卷第8套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2023 张宇八套卷第8套",
+      "number": 18,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇四套卷第1套",
+      "number": 21,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇四套卷第2套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇四套卷第3套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇四套卷第4套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2024 张宇四套卷第4套",
+      "number": 22,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇八套卷第1套",
+      "number": 18,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇八套卷第2套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇八套卷第2套",
+      "number": 22,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇八套卷第4套",
+      "number": 10,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇八套卷第4套",
+      "number": 21,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇八套卷第6套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇八套卷第7套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2026 张宇八套卷第8套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2022 李艳芳三套卷第1套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2022 李艳芳三套卷第2套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2022 李艳芳三套卷第2套",
+      "number": 22,
+      "parts": 2
+    },
+    {
+      "paper": "2022 李艳芳三套卷第3套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2022 李艳芳三套卷第3套",
+      "number": 20,
+      "parts": 2
+    },
+    {
+      "paper": "2023 李艳芳三套卷第1套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2023 李艳芳三套卷第2套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2023 李艳芳三套卷第3套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2023 李艳芳三套卷第3套",
+      "number": 21,
+      "parts": 2
+    },
+    {
+      "paper": "2024 李艳芳三套卷第1套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2024 李艳芳三套卷第2套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2024 李艳芳三套卷第2套",
+      "number": 18,
+      "parts": 2
+    },
+    {
+      "paper": "2024 李艳芳三套卷第3套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2025 李艳芳三套卷第1套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2025 李艳芳三套卷第3套",
+      "number": 5,
+      "parts": 2
+    },
+    {
+      "paper": "2025 李艳芳三套卷第3套",
+      "number": 10,
+      "parts": 2
+    },
+    {
+      "paper": "2026 李艳芳三套卷第1套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2026 李艳芳三套卷第2套",
+      "number": 21,
+      "parts": 2
+    },
+    {
+      "paper": "2026 李艳芳三套卷第3套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2026 李艳芳三套卷第3套",
+      "number": 10,
+      "parts": 2
+    },
+    {
+      "paper": "2026 李艳芳三套卷第3套",
+      "number": 21,
+      "parts": 2
+    },
+    {
+      "paper": "2025 欧几里得三套卷第1套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2025 欧几里得三套卷第1套",
+      "number": 22,
+      "parts": 2
+    },
+    {
+      "paper": "2025 欧几里得三套卷第3套",
+      "number": 6,
+      "parts": 2
+    },
+    {
+      "paper": "2025 欧几里得三套卷第3套",
+      "number": 21,
+      "parts": 2
+    },
+    {
+      "paper": "2026 欧几里得三套卷第1套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2026 欧几里得三套卷第2套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2026 欧几里得三套卷第2套",
+      "number": 22,
+      "parts": 2
+    },
+    {
+      "paper": "2024 超越十套卷第1套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2026 李林六套卷第3套",
+      "number": 7,
+      "parts": 2
+    },
+    {
+      "paper": "2026 李林六套卷第4套",
+      "number": 8,
+      "parts": 2
+    }
+  ],
+  "boundary_warnings": [
+    {
+      "anchor": 398.17412320000005,
+      "cut": 395.1818181818182,
+      "crossing": 1,
+      "paper": 6
+    },
+    {
+      "anchor": 431.1371232,
+      "cut": 425.6181818181818,
+      "crossing": 1,
+      "paper": 13
+    },
+    {
+      "anchor": 140.79848319999996,
+      "cut": 135.9818181818182,
+      "crossing": 1,
+      "paper": 15
+    },
+    {
+      "anchor": 424.60612319999996,
+      "cut": 419.0727272727273,
+      "crossing": 1,
+      "paper": 31
+    },
+    {
+      "anchor": 469.9451232,
+      "cut": 464.23636363636365,
+      "crossing": 1,
+      "paper": 42
+    },
+    {
+      "anchor": 79.4261232,
+      "cut": 73.80000000000001,
+      "crossing": 1,
+      "paper": 57
+    },
+    {
+      "anchor": 588.1781232000001,
+      "cut": 582.709090909091,
+      "crossing": 2,
+      "paper": 76
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+:root{--motion-ease:cubic-bezier(.22,1,.36,1);--motion-fast:180ms;--motion-slow:380ms}
+/* Motion has a hierarchy: navigation, page, then a short rhythm of cards. */
+#app{isolation:isolate;overflow-x:clip}#app:focus{outline:none}#app[aria-busy=true]{cursor:progress}
+.route-progress{position:fixed;inset:0 0 auto;z-index:100;height:2px;pointer-events:none;opacity:0;overflow:hidden;transition:opacity 160ms;background:#bd765a12}
+.route-progress:after{content:"";display:block;width:30%;height:100%;background:linear-gradient(90deg,transparent,var(--accent),transparent);transform:translateX(-100%)}
+.route-progress.visible{opacity:1}.route-progress.visible:after{animation:route-loading 1.35s ease-in-out infinite}
+@keyframes route-loading{to{transform:translateX(440%)}}
+.topbar nav{position:relative;isolation:isolate}.nav-indicator{position:absolute;top:0;left:0;z-index:-1;pointer-events:none;border-radius:7px;background:#e5e0d5;transition:none}
+.motion-nav .nav-indicator{transition:transform var(--motion-slow) var(--motion-ease),width var(--motion-slow) var(--motion-ease),height var(--motion-slow) var(--motion-ease)}
+.topbar .motion-nav a.active{background:transparent}.topbar nav a{transition:color 180ms,background 180ms}.topbar nav a svg{transition:transform 300ms var(--motion-ease),color 180ms}.topbar nav a:hover svg{transform:translateX(2px)}
+.subject-bar>.tabs{position:relative;isolation:isolate;display:flex}.subject-bar>.tabs:before{content:"";position:absolute;inset:3px auto 3px 3px;width:calc((100% - 6px)/2);border-radius:5px;background:var(--paper);box-shadow:0 1px 4px #302a2010;z-index:-1;transition:transform var(--motion-slow) var(--motion-ease)}
+body[data-subject="408"] .subject-bar>.tabs:before{transform:translateX(100%)}.subject-bar>.tabs button{flex:1}.subject-bar>.tabs button.active{background:transparent;box-shadow:none}
+.button,.backup-choice,.number,.folder-link,.status-pills button,.daily-history-item,.practice-item{transition:background var(--motion-fast),border-color var(--motion-fast),color var(--motion-fast),box-shadow var(--motion-fast),transform var(--motion-fast) var(--motion-ease)}
+.button:active:not(:disabled),.backup-choice:active,.status-pills button:active:not(:disabled){transform:scale(.975)}
+.paper-card,.mistake-card,.continue-card,.daily-banner,.kd-machine,.kd-catalog-card,.practice-subject{transition:transform 320ms var(--motion-ease),box-shadow 320ms var(--motion-ease),border-color 220ms}
+.paper-card .arrow{display:inline-block;transition:transform 320ms var(--motion-ease)}
+@media(hover:hover) and (pointer:fine){
+ .paper-card:hover,.mistake-card:hover,.daily-banner:hover,.kd-machine:hover,.kd-catalog-card:hover{transform:translateY(-3px);box-shadow:0 10px 25px -12px #40382b26}
+ .paper-card:hover .arrow{transform:translate(3px,-3px)}
+ .button:hover:not(:disabled){transform:translateY(-1px)}.button:active:not(:disabled){transform:translateY(0) scale(.975)}
+ .practice-item:hover,.folder-link:hover{transform:translateX(2px)}.number:hover{transform:translateY(-2px)}
+}
+.daily-track>span{transition:width 480ms var(--motion-ease)}
+.activity-loading{height:270px;padding:0;display:grid;place-items:center}
+.activity-cell{transition:background 240ms,filter 180ms,outline-offset 180ms}.activity-cell:hover{outline-offset:3px}
+/* Native dialog transitions retain Escape, focus trapping and the top layer. */
+@supports(transition-behavior:allow-discrete){
+ dialog{opacity:0;transform:translateY(12px) scale(.98);transition:opacity 180ms,transform 240ms var(--motion-ease),display 240ms allow-discrete,overlay 240ms allow-discrete}
+ dialog[open]{opacity:1;transform:translateY(0) scale(1)}
+ dialog::backdrop{opacity:0;transition:opacity 240ms,display 240ms allow-discrete,overlay 240ms allow-discrete}dialog[open]::backdrop{opacity:1}
+ @starting-style{dialog[open]{opacity:0;transform:translateY(16px) scale(.98)}dialog[open]::backdrop{opacity:0}}
+}
+@media(max-width:700px){.nav-indicator{border-radius:6px}.route-progress{height:2px}.activity-loading{height:310px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.route-progress.visible:after{transform:none;width:100%;background:var(--accent)}.button:hover,.paper-card:hover,.mistake-card:hover,.daily-banner:hover,.kd-machine:hover,.kd-catalog-card:hover,.practice-item:hover,.folder-link:hover,.number:hover,.topbar nav a:hover svg{transform:none}}
